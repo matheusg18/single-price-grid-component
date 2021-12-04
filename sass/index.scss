@@ -1,9 +1,60 @@
 @use 'variables' as *;
 @use 'utils' as *;
 @use 'reset';
+@use 'components';
+
+.join-us {
+  h2 {
+    color: $primary-color;
+    margin-bottom: space(3);
+  }
+
+  h3 {
+    color: $secondary-color;
+    margin-bottom: space(2);
+  }
+
+  p {
+    color: $font-gray;
+    line-height: 1.8rem;
+  }
+}
 
 .subscription {
   background-color: $primary-color;
-  margin: space(2);
-  padding: 8px;
+  color: $font-white;
+
+  h3 {
+    margin-bottom: space(3);
+  }
+
+  .pricing {
+    color: rgba($font-white, 0.7);
+    display: flex;
+    align-items: center;
+    margin-bottom: space(2);
+  }
+
+  strong {
+    color: $font-white;
+    font: {
+      size: 2rem;
+      weight: 700;
+    }
+    margin-right: space(1.5);
+  }
+
+  .button {
+    margin-top: space(4);
+  }
+}
+
+.why-us {
+  color: $font-white;
+  background-color: lighten($color: $primary-color, $amount: 5%);
+
+  ul {
+    list-style: none;
+    margin-top: space(2);
+  }
 }

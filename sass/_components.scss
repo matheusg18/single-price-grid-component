@@ -1,0 +1,23 @@
+@use 'variables' as *;
+@use 'utils' as *;
+
+.sub-container {
+  display: flex;
+  flex-flow: column nowrap;
+  text-align: start;
+  padding: space(4);
+}
+
+.button {
+  border: none;
+  outline: none;
+  color: $font-white;
+  background-color: $secondary-color;
+  padding: 1rem;
+  font: {
+    size: 1.1rem;
+    weight: 700;
+  }
+  border-radius: 5px;
+  width: 100%;
+}

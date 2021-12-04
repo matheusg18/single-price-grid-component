@@ -9,8 +9,66 @@ body {
   font-family: "Karla", sans-serif;
 }
 
+.sub-container {
+  display: flex;
+  flex-flow: column nowrap;
+  text-align: start;
+  padding: 32px;
+}
+
+.button {
+  border: none;
+  outline: none;
+  color: #e5eff5;
+  background-color: #c0df34;
+  padding: 1rem;
+  font-size: 1.1rem;
+  font-weight: 700;
+  border-radius: 5px;
+  width: 100%;
+}
+
+.join-us h2 {
+  color: #2ab2af;
+  margin-bottom: 24px;
+}
+.join-us h3 {
+  color: #c0df34;
+  margin-bottom: 16px;
+}
+.join-us p {
+  color: #98a6bd;
+  line-height: 1.8rem;
+}
+
 .subscription {
   background-color: #2ab2af;
-  margin: 16px;
-  padding: 8px;
+  color: #e5eff5;
+}
+.subscription h3 {
+  margin-bottom: 24px;
+}
+.subscription .pricing {
+  color: rgba(229, 239, 245, 0.7);
+  display: flex;
+  align-items: center;
+  margin-bottom: 16px;
+}
+.subscription strong {
+  color: #e5eff5;
+  font-size: 2rem;
+  font-weight: 700;
+  margin-right: 12px;
+}
+.subscription .button {
+  margin-top: 32px;
+}
+
+.why-us {
+  color: #e5eff5;
+  background-color: #2fc6c4;
+}
+.why-us ul {
+  list-style: none;
+  margin-top: 16px;
 }/*# sourceMappingURL=index.css.map */
