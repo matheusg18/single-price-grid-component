@@ -12,6 +12,7 @@
   border: none;
   outline: none;
   color: $font-white;
+  cursor: pointer;
   background-color: $secondary-color;
   padding: 1rem;
   font: {
@@ -20,4 +21,20 @@
   }
   border-radius: 5px;
   width: 100%;
+  box-shadow: 0 3px 5px rgba($color: #000000, $alpha: 0.25);
+
+  &:hover {
+    background-color: darken($color: $secondary-color, $amount: 5%);
+    transform: scale(1.01);
+  }
+}
+
+.attribution {
+  text-align: center;
+  margin: space(1);
+
+  a {
+    color: #1b5299;
+    text-decoration: none;
+  }
 }

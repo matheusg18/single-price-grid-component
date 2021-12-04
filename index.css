@@ -20,12 +20,27 @@ body {
   border: none;
   outline: none;
   color: #e5eff5;
+  cursor: pointer;
   background-color: #c0df34;
   padding: 1rem;
   font-size: 1.1rem;
   font-weight: 700;
   border-radius: 5px;
   width: 100%;
+  box-shadow: 0 3px 5px rgba(0, 0, 0, 0.25);
+}
+.button:hover {
+  background-color: #b7d822;
+  transform: scale(1.01);
+}
+
+.attribution {
+  text-align: center;
+  margin: 8px;
+}
+.attribution a {
+  color: #1b5299;
+  text-decoration: none;
 }
 
 .join-us h2 {
@@ -44,6 +59,7 @@ body {
 .subscription {
   background-color: #2ab2af;
   color: #e5eff5;
+  border-top: 1px solid rgba(32, 136, 135, 0.25);
 }
 .subscription h3 {
   margin-bottom: 24px;
