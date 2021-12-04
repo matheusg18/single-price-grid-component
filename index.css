@@ -37,12 +37,16 @@ body {
 .attribution {
   text-align: center;
   margin: 8px;
+  width: 100%;
 }
 .attribution a {
   color: #1b5299;
   text-decoration: none;
 }
 
+.join-us {
+  background-color: white;
+}
 .join-us h2 {
   color: #2ab2af;
   margin-bottom: 24px;
@@ -87,4 +91,49 @@ body {
 .why-us ul {
   list-style: none;
   margin-top: 16px;
+}
+
+@media screen and (min-width: 580px) {
+  body {
+    background-color: #e5eff5;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    height: 100vh;
+  }
+
+  .container {
+    flex-grow: 1;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+  }
+
+  .wrapper {
+    background-color: white;
+    display: grid;
+    grid-template-areas: "join-us join-us" "subscription why-us";
+    max-width: 640px;
+    width: 100%;
+    box-shadow: 0 5px 10px rgba(0, 0, 0, 0.25);
+    border-radius: 10px;
+  }
+
+  .join-us {
+    grid-area: join-us;
+    border-top-left-radius: 10px;
+    border-top-right-radius: 10px;
+  }
+
+  .subscription {
+    border: none;
+    border-bottom-left-radius: 10px;
+    grid-area: subscription;
+  }
+
+  .why-us {
+    border-bottom-right-radius: 10px;
+    grid-area: why-us;
+  }
 }/*# sourceMappingURL=index.css.map */

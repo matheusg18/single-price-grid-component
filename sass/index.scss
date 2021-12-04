@@ -4,6 +4,8 @@
 @use 'components';
 
 .join-us {
+  background-color: white;
+
   h2 {
     color: $primary-color;
     margin-bottom: space(3);
@@ -57,5 +59,52 @@
   ul {
     list-style: none;
     margin-top: space(2);
+  }
+}
+
+@media screen and (min-width: $mobile) {
+  body {
+    background-color: $font-white;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    height: 100vh;
+  }
+
+  .container {
+    flex-grow: 1;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+  }
+
+  .wrapper {
+    background-color: white;
+    display: grid;
+    grid-template-areas:
+      'join-us join-us'
+      'subscription why-us';
+    max-width: 640px;
+    width: 100%;
+    box-shadow: 0 5px 10px rgba($color: #000000, $alpha: 0.25);
+    border-radius: 10px;
+  }
+
+  .join-us {
+    grid-area: join-us;
+    border-top-left-radius: 10px;
+    border-top-right-radius: 10px;
+  }
+
+  .subscription {
+    border: none;
+    border-bottom-left-radius: 10px;
+    grid-area: subscription;
+  }
+
+  .why-us {
+    border-bottom-right-radius: 10px;
+    grid-area: why-us;
   }
 }
