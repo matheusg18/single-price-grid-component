@@ -88,23 +88,20 @@
     max-width: 640px;
     width: 100%;
     box-shadow: 0 5px 10px rgba($color: #000000, $alpha: 0.25);
+    overflow: hidden;
     border-radius: 10px;
   }
 
   .join-us {
     grid-area: join-us;
-    border-top-left-radius: 10px;
-    border-top-right-radius: 10px;
   }
 
   .subscription {
     border: none;
-    border-bottom-left-radius: 10px;
     grid-area: subscription;
   }
 
   .why-us {
-    border-bottom-right-radius: 10px;
     grid-area: why-us;
   }
 }
