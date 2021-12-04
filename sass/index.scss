@@ -1,0 +1,9 @@
+@use 'variables' as *;
+@use 'utils' as *;
+@use 'reset';
+
+.subscription {
+  background-color: $primary-color;
+  margin: space(2);
+  padding: 8px;
+}
