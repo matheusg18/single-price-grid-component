@@ -46,12 +46,12 @@ Os usuários devem ser capazes de:
 
 ## Desenvolvimento
 
-Para desenvolver este desafio eu usei o Sass pela primeira e já vi o quanto é poderoso.
+Para desenvolver este desafio eu usei o SASS pela primeira vez e já vi o quanto é poderoso.
 
 ### Tecnologias usadas
 
 - HTML5
-- Sass
+- SASS
 - CSS
 - Flexbox
 - CSS Grid
@@ -59,7 +59,7 @@ Para desenvolver este desafio eu usei o Sass pela primeira e já vi o quanto é 
 
 ### Aprendizados
 
-- Sass
+- SASS
 - Metodologia modular do Sass
 - CSS display grid
 - Problemas que podem ocorrer com o overflow do display grid
